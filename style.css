@@ -1,0 +1,84 @@
+/* css reset */
+body{
+    margin:0px;
+    padding:0px;
+    background: url('./img/gym.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left{
+    position: absolute;
+    top: 5px;
+    left:50px;
+    display: inline-block;
+}
+.right{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: inline-block;
+}
+.mid{
+    display: block;
+    width:60%;
+    margin: 2px auto;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color:rgb(65, 3, 3);
+    text-decoration: none;
+    padding: 34px 22px;
+    font-weight: bolder;
+}
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline maroon;
+    color: rgb(63, 52, 52);
+    font-weight:bold;
+}
+.left img{
+    position: relative;
+    top: 5px;
+    left: 12px;
+    width: 80px;
+    height: 40px;
+}
+.left div{
+    text-align: center;
+}
+.right .btn:hover{
+    background-color: rgb(168, 79, 79);
+    border: 1px solid rgb(168, 79, 79);
+}
+.btn{
+    margin: 0px 9x;
+    color:white;
+    background-color: black;
+    padding:8px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.Tanisha{
+    font-size: large;
+    font-weight: bolder;
+}
+.container{
+    border: 2px solid green;
+    margin: 20px 600px 20px 80px;
+    padding: 30px 30px;
+    border-radius:15px;
+}
+.form-group input{
+    margin:5px;
+    background-color: aquamarine;
+    color:black;
+    font-size:large;
+    font-weight: bolder;
+    display: block;
+    padding: 6px;
+}
